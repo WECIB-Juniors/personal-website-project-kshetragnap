@@ -59,4 +59,5 @@ header {
 .navbar a {
     color:#3b234c;
     background-color:#ca5379;
+    border: 2px solid #3b234c;
 }

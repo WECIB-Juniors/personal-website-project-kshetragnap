@@ -1,3 +1,62 @@
 * {
     box-sizing: border-box;
 }
+/* Color Palette:
+Light Shade: #fdfbfb ;
+Light Accent: #b399c7 ;
+Main Brand Color: #674f97 ;
+Dark Accent: #ca5379 ;
+Dark Shades: #3b234c ;
+*/
+.name {
+    color: #3b234c;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+body {
+    background-color: #b399c7;
+}
+h1,h2,h3 {
+    font-size: 30px;
+}
+p {
+    background-color: #b399c7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    padding-bottom: 10px;
+    border: 2px solid #ca5379;
+}
+ol {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    padding-bottom: 10px;
+    border: 2px solid #ca5379;
+    background-color: #674f97;
+}
+ul {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    padding-bottom: 10px;
+    border: 2px solid #ca5379;
+    background-color: #674f97;
+}
+header { 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile-pic{
+    display: inline-block;
+    border-radius: 50%;
+    width:120px;
+}
+.navbar {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar a {
+    color:#3b234c;
+    background-color:#ca5379;
+}
